@@ -1,2 +1,2 @@
 #!/bin/sh
-java -D"com.microsoft.tfs.jni.native.base-directory=native" -jar ${project.build.finalName}.jar
+java -D"com.microsoft.tfs.jni.native.base-directory=lib/native" -jar ${project.build.finalName}.jar

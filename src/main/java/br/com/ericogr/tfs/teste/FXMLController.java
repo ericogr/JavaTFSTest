@@ -28,7 +28,7 @@ public class FXMLController implements Initializable {
     
     @FXML
     private ListView<String> listaDeProjetos;
-
+    
     @FXML
     private void handleBotaoFechar(ActionEvent event) {
         System.exit(0);
@@ -36,9 +36,11 @@ public class FXMLController implements Initializable {
     
     @FXML
     private void handleBotaoAtualizar(ActionEvent event) {
-        limparListaDeProjetos();
-        
-        setItens(listarProjetos());
+        try {
+            setItens(listarProjetos());
+        } catch (Exception ex) {
+            this.listaDeProjetos.setItems(FXCollections.observableArrayList(new String[] {"Erro: " + ex.getMessage()}));
+        }
     }
 
     @Override

@@ -81,7 +81,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${basedir}/target/native</outputDirectory>
+                            <outputDirectory>${basedir}/target/lib/native</outputDirectory>
                             <resources>          
                                 <resource>
                                     <directory>libs/native</directory>
@@ -102,7 +102,7 @@
                                 <resource>
                                     <directory>${basedir}</directory>
                                     <filtering>true</filtering>
-                                    <include>run.sh</include>
+                                    <include>run.*</include>
                                 </resource>
                             </resources>              
                         </configuration>            
