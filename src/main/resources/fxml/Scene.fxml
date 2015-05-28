@@ -11,9 +11,9 @@
       <Label layoutX="14.0" layoutY="14.0" prefHeight="15.0" prefWidth="289.0" text="Projetos" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="14.0" />
       <ListView fx:id="listaDeProjetos" layoutX="14.0" layoutY="36.0" prefHeight="104.0" prefWidth="289.0" AnchorPane.bottomAnchor="169.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="36.0" />
       <Button fx:id="botaoFechar" cancelButton="true" layoutX="241.0" layoutY="270.0" mnemonicParsing="false" onAction="#handleBotaoFechar" text="Fechar" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="16.0" />
-      <TextField fx:id="campoEndereco" layoutX="14.0" layoutY="155.0" prefHeight="25.0" prefWidth="289.0" promptText="Endereço" text="http://endereco:8080/tfs/Collection" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" />
-      <TextField fx:id="campoUsuario" layoutX="14.0" layoutY="195.0" prefHeight="25.0" prefWidth="289.0" promptText="Usuário" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" />
-      <TextField fx:id="campoSenha" layoutX="14.0" layoutY="235.0" prefHeight="25.0" prefWidth="289.0" promptText="Senha" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" />
-      <Button fx:id="botaoAtualizar" cancelButton="true" layoutX="14.0" layoutY="270.0" mnemonicParsing="false" onAction="#handleBotaoAtualizar" text="Atualizar" />
+      <TextField fx:id="campoEndereco" layoutX="14.0" layoutY="155.0" prefHeight="25.0" prefWidth="289.0" promptText="Endereço" text="http://endereco:8080/tfs/Collection" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" />
+      <TextField fx:id="campoUsuario" layoutX="14.0" layoutY="195.0" prefHeight="25.0" prefWidth="289.0" promptText="Usuário" AnchorPane.bottomAnchor="89.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" />
+      <TextField fx:id="campoSenha" layoutX="14.0" layoutY="235.0" prefHeight="25.0" prefWidth="289.0" promptText="Senha" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="17.0" />
+      <Button fx:id="botaoAtualizar" cancelButton="true" layoutX="14.0" layoutY="270.0" mnemonicParsing="false" onAction="#handleBotaoAtualizar" text="Atualizar" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" />
     </children>
 </AnchorPane>
